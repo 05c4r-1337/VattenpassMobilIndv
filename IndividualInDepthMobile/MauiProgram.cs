@@ -1,7 +1,10 @@
 ﻿using IndividualInDepthMobile.MVVM.ViewModels;
 using IndividualInDepthMobile.MVVM.Views;
 using IndividualInDepthMobile.Services;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Maui.Controls.Hosting;
+using Microsoft.Maui.Hosting;
 using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace IndividualInDepthMobile;

@@ -1,7 +1,10 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using IndividualInDepthMobile.Model;
 using IndividualInDepthMobile.Services;
+using Microsoft.Maui.ApplicationModel;
+using Microsoft.Maui.Controls;
 using SkiaSharp;
 
 namespace IndividualInDepthMobile.MVVM.ViewModels;

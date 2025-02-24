@@ -1,8 +1,12 @@
-﻿using SkiaSharp.Views.Maui;
+﻿using System;
+using SkiaSharp.Views.Maui;
 using SkiaSharp;
 using IndividualInDepthMobile.MVVM.ViewModels;
 using IndividualInDepthMobile.Services;
 using System.ComponentModel;
+using Microsoft.Maui.ApplicationModel;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Dispatching;
 
 namespace IndividualInDepthMobile.MVVM.Views;
 

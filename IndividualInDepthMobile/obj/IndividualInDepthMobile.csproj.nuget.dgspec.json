@@ -82,6 +82,10 @@
               "version": "[8.0.13, )",
               "autoReferenced": true
             },
+            "Microsoft.WindowsAppSDK": {
+              "target": "Package",
+              "version": "[1.5.240802000, )"
+            },
             "SkiaSharp": {
               "target": "Package",
               "version": "[3.118.0-preview.2.3, )"
@@ -140,6 +144,10 @@
               "target": "Package",
               "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "Microsoft.WindowsAppSDK": {
+              "target": "Package",
+              "version": "[1.5.240802000, )"
             },
             "SkiaSharp": {
               "target": "Package",
@@ -200,6 +208,10 @@
               "version": "[8.0.13, )",
               "autoReferenced": true
             },
+            "Microsoft.WindowsAppSDK": {
+              "target": "Package",
+              "version": "[1.5.240802000, )"
+            },
             "SkiaSharp": {
               "target": "Package",
               "version": "[3.118.0-preview.2.3, )"
@@ -253,6 +265,10 @@
             "Microsoft.Maui.Graphics": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "Microsoft.WindowsAppSDK": {
+              "target": "Package",
+              "version": "[1.5.240802000, )"
             },
             "SkiaSharp": {
               "target": "Package",

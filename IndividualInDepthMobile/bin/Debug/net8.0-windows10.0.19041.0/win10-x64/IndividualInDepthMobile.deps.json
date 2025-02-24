@@ -13,6 +13,7 @@
           "Microsoft.Maui.Controls": "8.0.100",
           "Microsoft.Maui.Controls.Compatibility": "8.0.100",
           "Microsoft.Maui.Graphics": "8.0.100",
+          "Microsoft.WindowsAppSDK": "1.5.240802000",
           "SkiaSharp": "3.118.0-preview.2.3",
           "SkiaSharp.Views.Maui.Controls": "3.118.0-preview.2.3",
           "SkiaSharp.Views.Maui.Core": "3.118.0-preview.2.3",

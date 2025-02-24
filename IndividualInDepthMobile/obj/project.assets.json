@@ -445,6 +445,49 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -2749,6 +2792,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -5036,6 +5096,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -7327,6 +7404,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -9614,6 +9708,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -11905,6 +12016,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -14189,6 +14317,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -16477,6 +16622,26 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -18739,6 +18904,49 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -19265,6 +19473,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -19763,6 +19988,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -20265,6 +20507,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -20765,6 +21024,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -21263,6 +21539,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -21770,6 +22063,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -22275,6 +22585,26 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -22773,6 +23103,49 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -23281,6 +23654,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -23779,6 +24169,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -24281,6 +24688,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -24779,6 +25203,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -25281,6 +25722,23 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
       "SkiaSharp/3.118.0-preview.2.3": {
         "type": "package",
         "dependencies": {
@@ -25779,6 +26237,23 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -26282,6 +26757,26 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
+          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
+          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
       "SkiaSharp/3.118.0-preview.2.3": {
@@ -36300,6 +36795,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.Maui.Graphics >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.13",
+      "Microsoft.WindowsAppSDK >= 1.5.240802000",
       "SkiaSharp >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Controls >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Core >= 3.118.0-preview.2.3"
@@ -36310,6 +36806,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.Maui.Graphics >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.13",
+      "Microsoft.WindowsAppSDK >= 1.5.240802000",
       "SkiaSharp >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Controls >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Core >= 3.118.0-preview.2.3"
@@ -36320,6 +36817,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.Maui.Graphics >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.13",
+      "Microsoft.WindowsAppSDK >= 1.5.240802000",
       "SkiaSharp >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Controls >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Core >= 3.118.0-preview.2.3"
@@ -36329,6 +36827,7 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.Maui.Graphics >= 8.0.100",
+      "Microsoft.WindowsAppSDK >= 1.5.240802000",
       "SkiaSharp >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Controls >= 3.118.0-preview.2.3",
       "SkiaSharp.Views.Maui.Core >= 3.118.0-preview.2.3"
@@ -36416,6 +36915,10 @@
             "version": "[8.0.13, )",
             "autoReferenced": true
           },
+          "Microsoft.WindowsAppSDK": {
+            "target": "Package",
+            "version": "[1.5.240802000, )"
+          },
           "SkiaSharp": {
             "target": "Package",
             "version": "[3.118.0-preview.2.3, )"
@@ -36474,6 +36977,10 @@
             "target": "Package",
             "version": "[8.0.13, )",
             "autoReferenced": true
+          },
+          "Microsoft.WindowsAppSDK": {
+            "target": "Package",
+            "version": "[1.5.240802000, )"
           },
           "SkiaSharp": {
             "target": "Package",
@@ -36534,6 +37041,10 @@
             "version": "[8.0.13, )",
             "autoReferenced": true
           },
+          "Microsoft.WindowsAppSDK": {
+            "target": "Package",
+            "version": "[1.5.240802000, )"
+          },
           "SkiaSharp": {
             "target": "Package",
             "version": "[3.118.0-preview.2.3, )"
@@ -36587,6 +37098,10 @@
           "Microsoft.Maui.Graphics": {
             "target": "Package",
             "version": "[8.0.100, )"
+          },
+          "Microsoft.WindowsAppSDK": {
+            "target": "Package",
+            "version": "[1.5.240802000, )"
           },
           "SkiaSharp": {
             "target": "Package",

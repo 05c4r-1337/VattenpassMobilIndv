@@ -1,4 +1,5 @@
-﻿using Microsoft.Maui.Devices.Sensors;
+﻿using System;
+using Microsoft.Maui.Devices.Sensors;
 
 namespace IndividualInDepthMobile.Services;
 
