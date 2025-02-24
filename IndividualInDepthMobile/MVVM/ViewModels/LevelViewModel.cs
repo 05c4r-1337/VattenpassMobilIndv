@@ -2,6 +2,7 @@
 using System.Runtime.CompilerServices;
 using IndividualInDepthMobile.Model;
 using IndividualInDepthMobile.Services;
+using SkiaSharp;
 
 namespace IndividualInDepthMobile.MVVM.ViewModels;
 
@@ -9,6 +10,7 @@ public class LevelViewModel : INotifyPropertyChanged
 {
     private readonly IAccelerometerService _accelerometerService;
     private LevelReading _currentReading;
+    private LevelRenderOptions _renderOptions;
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -25,6 +27,19 @@ public class LevelViewModel : INotifyPropertyChanged
         }
     }
     
+    public LevelRenderOptions RenderOptions
+    {
+        get => _renderOptions;
+        set
+        {
+            if (_renderOptions != value)
+            {
+                _renderOptions = value;
+                OnPropertyChanged();
+            }
+        }
+    }
+    
     public Command StartMeasuringCommand { get; }
     public Command StopMeasuringCommand { get; }
 
@@ -33,6 +48,14 @@ public class LevelViewModel : INotifyPropertyChanged
         _accelerometerService = accelerometerService;
         _currentReading = new LevelReading();
         
+        _renderOptions = new LevelRenderOptions(
+            BackgroundColor: SKColors.GreenYellow,
+            BubbleColor: SKColors.White,
+            TubeColor: SKColors.Black,
+            LineColor: SKColors.Red,
+            TextColor: SKColors.Black
+        );
+
         StartMeasuringCommand = new Command(StartMeasuring);
         StopMeasuringCommand = new Command(StopMeasuring);
 
