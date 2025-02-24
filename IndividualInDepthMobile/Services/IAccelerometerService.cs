@@ -18,7 +18,7 @@ public class AccelerometerService : IAccelerometerService
     private double _currentX;
     private double _currentY;
     private double _currentZ;
-    private const float Alpha = 0.2f; // Low-pass filter coefficient
+    private const float Alpha = 0.1f; // Low-pass filter coefficient
 
     public event Action<LevelSensorData>? ReadingChanged;
     public bool IsAvailable => _accelerometer?.IsSupported ?? false;
